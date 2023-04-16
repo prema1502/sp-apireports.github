@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SP-API REPORTS</title>
+	<style>
+		header {
+			background-color: rgb(180, 177, 177);
+			color: BLACK;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>SP-API REPORTS</h1>
+	</header>
+</header>
+    <li><a href="#Sales Tax Report">Sales Tax Report</a></li>
+    <li><a href="#Amazon VAT Calculation Report">Amazon VAT Calculation Report</a></li>
+    <li><a href="#Amazon VAT Transactions Report">Amazon VAT Transactions Report</a></li>
+    <li><a href="#Market Basket Analysis Report">Market Basket Analysis Report</a></li>
+    <li><a href="#Amazon Search Terms Report">Amazon Search Terms Report</a></li>
+    <li><a href="#Repeat Purchase">Repeat Purchase</a></li>
+    <li><a href="#Flat File Orders By Last Update Report ">Flat File Orders By Last Update Report </a></li>
+    <li><a href="#Flat File Orders By Order Date Report">Flat File Orders By Order Date Report</a></li>
+    <li><a href="#Flat File Archived Orders Report">Flat File Archived Orders Report</a></li>
+    <li><a href="#B2B Product Opportunities - Recommended for You Report">B2B Product Opportunities - Recommended for You Report</a></li>
+    <li><a href="#Browse Tree Report">Browse Tree Report</a></li>
+    <li><a href="#Flat File VAT Invoice Data Report (VIDR)">Flat File VAT Invoice Data Report (VIDR)</a></li>
+    <li><a href="#Flat File Settlement Report">Flat File Settlement Report</a></li>
+    <li><a href="#Flat File Feedback Report">Flat File Feedback Report</a></li>
+    <li><a href="#Inventory Report">Inventory Report</a></li>
+    <li><a href="#All Listings Report">All Listings Report</a></li>
+    <li><a href="#Unshipped Orders Report">Unshipped Orders Report</a></li>
+    <li><a href="#Requested or Scheduled Flat File Order Report">Requested or Scheduled Flat File Order Report</a></li>
+    <li><a href="#Flat File Returns Report by Return Date">Flat File Returns Report by Return Date</a></li>
+
+</ul>
+=
+<h2 id="Sales Tax Report">Sales Tax Report</h2>
+<ul>
+    <li>Order_ID</li>
+    <li>Order_Date</li>
+    <li>Shipment_ID</li>
+    <li>Shipment_Date</li>
+    <li>Tax_Calculated_Date (UTC)</li>
+    <li>Posted_Date</li>
+    <li>Marketplace</li>
+    <li>Merchant_ID</li>
+    <li>Buyer_ID</li>
+    <li>Tax_Invoice_Number</li>
+    <li>Transaction_Item_ID</li>
+    <li>Fulfillment</li>
+    <li>ASIN</li>
+    <li>SKU</li>
+    <li>Transaction_Type</li>
+    <li>Product_Tax_Code</li>
+    <li>Quantity</li>
+    <li>Currency</li>
+    <li>Display_Price</li>
+    <li>Is_Display_Price_TaxInclusive</li>
+    <li>Final_TaxInclusive_Selling_Price</li>
+    <li>TaxExclusive_Selling_Price</li>
+    <li>Total_Tax</li>
+    <li>Ship_From_City</li>
+    <li>Ship_From_State</li>
+    <li>Ship_From_Country</li>
+    <li>Ship_From_Postal_Code</li>
+    <li>Ship_From_Tax_Location_Code</li>
+    <li>Ship_To_City</li>
+    <li>Ship_To_State</li>
+    <li>Ship_To_Country</li>
+    <li>Ship_To_Postal_Code</li>
+    <li>Ship_To_Location_Code</li>
+    <li>Taxed_Location_Code</li>
+    <li>Tax_Address_Role</li>
+    <li>Jurisdiction_Level</li>
+    <li>Jurisdiction_Name</li>
+    <li>Tax_Amount</li>
+    <li>Taxed_Jurisdiction_Tax_Rate</li>
+    <li>Tax_Type</li>
+    <li>Tax_Calculation_Reason_Code</li>
+    <li>NonTaxable_Amount</li>
+    <li>Taxable_Amount</li>
+    <li>Promo_TaxInclusive_Amount</li>
+    <li>Is_Display_Promo_Tax_Inclusive</li>
+    <li>Promo_Type</li>
+    <li>Promo_TaxExclusive_Amount</li>
+    <li>Promo_Amount_Tax</li>
+    <li>Promo_Rule_Reason_Code</li>
+    <li>Buyer_Exemption_Code</li>
+    <li>Buyer_Registration_Id</li>
+    <li>Buyer_Registration_Jurisdiction_Country</li>
+    <li>Buyer_Registration_Jurisdiction_State</li>
+    <li>Buyer_Registration_Type</li>
+    <li>Is_Buyer_Physically_Present_In_Registration_Country</li>
+    <li>Seller_Registration_Id</li>
+    <li>Seller_Registration_Jurisdiction_Country</li>
+    <li>Seller_Registration_Jurisdiction_State</li>
+    <li>Seller_Registration_Type</li>
+    <li>Is_Seller_Physically_Present_In_Registration_Country</li>
+    <li>Seller_Registration_Id_2</li>
+    <li>Seller_Registration_Jurisdiction_Country_2</li>
+    <li>Seller_Registration_Jurisdiction_State_2</li>
+    <li>Seller_Registration_Type_2</li>
+    <li>Is_Seller_Physically_Present_In_Registration_Country_2</li>    
+</ul>
+</p>
+
+<h2 id="Amazon VAT Calculation Report">Amazon VAT Calculation Report</h2>
+<ul><li>Marketplace ID</li>
+    <li>Merchant ID</li>
+    <li>Order Date</li>
+    <li>Transaction Type</li>
+    <li>Is Invoice Corrected</li>
+    <li>Order ID</li>
+    <li>Shipment Date</li>
+    <li>Shipment ID</li>
+    <li>Transaction ID</li>
+    <li>ASIN</li>
+    <li>SKU</li>
+    <li>Quantity</li>
+    <li>Tax Calculation Date</li>
+    <li>Tax Rate</li>
+    <li>Product Tax Code</li>
+    <li>Currency</li>
+    <li>Tax Type</li>
+    <li>Tax Calculation Reason Code</li>
+    <li>Tax Reporting Scheme</li>
+    <li>Tax Collection Responsibility</li>
+    <li>Tax Address Role</li>
+    <li>Jurisdiction Level</li>
+    <li>Jurisdiction Name</li>
+    <li>OUR_PRICE Tax Inclusive Selling Price</li>
+    <li>OUR_PRICE Tax Amount</li>
+    <li>OUR_PRICE Tax Exclusive Selling Price</li>
+    <li>OUR_PRICE Tax Inclusive Promo Amount</li>
+    <li>OUR_PRICE Tax Amount Promo</li>
+    <li>OUR_PRICE Tax Exclusive Promo Amount</li>
+    <li>SHIPPING Tax Inclusive Selling Price</li>
+    <li>SHIPPING Tax Amount</li>
+    <li>SHIPPING Tax Exclusive Selling Price</li>
+    <li>SHIPPING Tax Inclusive Promo Amount</li>
+    <li>SHIPPING Tax Amount Promo</li>
+    <li>SHIPPING Tax Exclusive Promo Amount</li>
+    <li>GIFTWRAP Tax Inclusive Selling Price</li>
+    <li>GIFTWRAP Tax Amount</li>
+    <li>GIFTWRAP Tax Exclusive Selling Price</li>
+    <li>GIFTWRAP Tax Inclusive Promo Amount</li>
+    <li>GIFTWRAP Tax Amount Promo</li>
+    <li>GIFTWRAP Tax Exclusive Promo Amount</li>
+    <li>Seller Tax Registration</li>
+    <li>Seller Tax Registration Jurisdiction</li>
+    <li>Buyer Tax Registration</li>
+    <li>Buyer Tax Registration Jurisdiction</li>
+    <li>Buyer Tax Registration Type</li>
+    <li>Buyer E Invoice Account Id</li>
+    <li>Invoice Level Currency Code</li>
+    <li>Invoice Level Exchange Rate</li>
+    <li>Invoice Level Exchange Rate Date</li>
+    <li>Converted Tax Amount</li>
+    <li>VAT Invoice Number</li>
+    <li>Invoice Url</li>
+    <li>Export Outside EU</li>
+    <li>Ship From City</li>
+    <li>Ship From State</li>
+    <li>Ship From Country</li>
+    <li>Ship From Postal Code</li>
+    <li>Ship From Tax Location Code</li>
+    <li>Ship To City</li>
+    <li>Ship To State</li>
+    <li>Ship To Country</li>
+    <li>Ship To Postal Code</li>
+    <li>Ship To Location Code</li>
+    <li>Return Fc Country</li>
+    <li>Is Amazon Invoiced</li>
+    <li>Original VAT Invoice Number</li>
+    <li>Invoice Correction Details</li>
+    <li>SDI Invoice Delivery Status</li>
+    <li>SDI Invoice Error Code</li>
+    <li>SDI Invoice Error Description</li>
+    <li>SDI Invoice Status Last Updated Date</li>
+    <li>EInvoice URL</li>
+</ul>
+
+<h2 id="report3">Report 3</h2>
+<p>Content of Report 3 goes here.</p>
+</body>
+</html>
+
